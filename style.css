@@ -1,33 +1,14 @@
 body {
-   background-color:black; 
-   width: 80vh;
-   margin: auto;
-   font-family: Arial, Helvetica, sans-serif;
+   background:darkgrey;
+   border-radius: 10px;
+   width: 50vw;
+   height: 80vh;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   margin-left: 25%;
+   margin-right: 30%;
+   font-family: Arial;
    
-}
-
-.title {
-color: #f2e205;
-font-style: italic;
-font-size: 50px;
-align-items: center;
-text-align: center;
-}
-
-.redesSociais {
-    color: #f2e205;
-    font-style: italic;
-    font-size: 20px;
-    text-align: right;
-    
-}
-
-.contato {
-    color: #f2e205;
-    font-style: italic;
-    font-size: 20px;
-    text-align: left;
-    padding: auto;
 }
 
 div {
@@ -35,18 +16,43 @@ div {
 }
 
 .div-principal img {
-    width: 80vh;
+    background-size: cover;
+    width: 100%;
+    padding: 2px;
     height: auto;
     border-radius: 10px;
     
-      
 }
 
 .div-secundaria img {
-    width: 25vh;
-    background-color: #f2e205;
-    padding: 5px;
+    width: 32vh;
+    background-color:black;
+    padding: 1px;
     height: auto;
     border-radius: 10px;
+    text-align: center;
+    
 }
+
+
+.title {
+color:black;
+font-style: italic;
+font-size: 50px;
+text-align: center;
+}
+
+.contato {
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+input, button {
+    border-radius: 5px;
+}
+
 
