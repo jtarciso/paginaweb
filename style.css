@@ -1,58 +1,53 @@
 body {
-   background:darkgrey;
-   border-radius: 10px;
-   width: 50vw;
-   height: 80vh;
-   margin-top: 1%;
-   margin-bottom: 1%;
-   margin-left: 25%;
-   margin-right: 30%;
-   font-family: Arial;
    
+   border-radius: 10px;
+   border-style: solid;
+   width: 80vh;
+   margin: auto;
+   font-family: Arial;
 }
 
 div {
-    display: inline-block;
+    display: inline-block;  
+   
+    
 }
 
 .div-principal img {
     background-size: cover;
     width: 100%;
-    padding: 2px;
     height: auto;
     border-radius: 10px;
+    
     
 }
 
+
 .div-secundaria img {
-    width: 32vh;
-    background-color:black;
-    padding: 1px;
-    height: auto;
+    width: 26.35vh;
     border-radius: 10px;
-    text-align: center;
-    
-}
+    }
 
 
 .title {
 color:black;
 font-style: italic;
-font-size: 50px;
+font-size: 20px;
 text-align: center;
+
 }
 
 .contato {
     color: black;
     font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    display: inline-block;
-    
+    width: 40vh;
+
 }
 
 input, button {
     border-radius: 5px;
 }
+
+
 
 
